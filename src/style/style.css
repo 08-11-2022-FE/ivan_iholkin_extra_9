@@ -1,0 +1,122 @@
+
+.page{
+    width: 1440px;
+    margin: 0 auto;
+    height: 900px;
+    box-sizing: border-box;
+    background: #3399CC;
+    border: 25px solid #2B81AC;
+    /* padding: 66px 135px 181px 13px; */
+}
+h1 {
+    font-family: 'Lucida Sans Unicode';
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    width: 1166px;
+    margin: 0 auto;
+    margin-bottom: 37px;
+    margin-top: 66px;
+    /* margin-left:135px ; */
+}
+p {
+    font-family: 'Lucida Sans Unicode';
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+ul li p {
+    font-family: 'Lucida Sans Unicode';
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 4px;
+}
+ul li span {
+    display: inline-block;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-right: 11px;
+    /* vertical-align: super; */
+}
+ul{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 37px;
+    width: 1166px;
+    font-size: 0;
+    /* margin-left: 137px; */
+}
+li{
+    display: inline-block;
+    /* height: 147px; */
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding-top: 26px;
+    padding-bottom: 39px;
+    box-sizing: border-box;
+    background: #ccc;
+    position: relative;
+    font-size: 22px;
+    line-height: 26px;
+}
+.footer{
+    width: 549px;
+   margin-left:111px ;
+}
+.lisboa,.sanfrancisco{
+    width: 50%;
+}
+.paris,.belgrade,.venice,.telavive,.cair,.newyork,.newdelhi,.tokyo{
+    width: 25%;
+}
+.sydney{
+    width: 100%;
+}
+.lisboa{
+    background: #3399CC;
+    border: 2px solid #FFFFFF;
+}
+.paris{
+    background-color:#33CCCC;
+    border: 2px solid #FFFFFF;
+}
+.belgrade{
+    background-color:#996699;
+    border: 2px solid #FFFFFF;
+}
+.venice{
+    background-color:#C24747 ;
+    border: 2px solid #FFFFFF;
+}
+.telavive{
+    background-color: #E2674A;
+    border: 2px solid #FFFFFF;
+}
+.cair{
+    background: #FFCC66;
+    border: 2px solid #FFFFFF;
+}
+.newdelhi{
+    background: #669999;
+    border: 2px solid #FFFFFF;
+}
+.newyork{
+    background: #99CC99;
+    border: 2px solid #FFFFFF;
+}
+.sanfrancisco{
+    background: #CC6699;
+    border: 2px solid #FFFFFF;
+}
+.tokyo{
+    background: #339966;
+    border: 2px solid #FFFFFF;
+}
+.sydney{
+    background: #666699;
+    border: 2px solid #FFFFFF;
+}
