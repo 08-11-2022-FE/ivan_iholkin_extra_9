@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "Lucida Sans Unicode"; 
+    src: url(src/font/Lucida/lucidasansunicode.ttf);
+}
+* {
+    font-family: "Lucida Sans Unicode"; 
+    transition: all .3s ease-in;
+}
+.page{
+    width: 1440px;
+    margin: 0 auto;
+    height: 900px;
+    box-sizing: border-box;
+    background: #3399CC;
+    border: 25px solid #2B81AC;
+    /* padding: 66px 135px 181px 13px; */
+}
+h1 {
+    font-family: 'Lucida Sans Unicode';
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    width: 1166px;
+    margin: 0 auto;
+    margin-bottom: 37px;
+    margin-top: 66px;
+    /* margin-left:135px ; */
+}
+p {
+    font-family: 'Lucida Sans Unicode';
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+ul li p {
+    font-family: 'Lucida Sans Unicode';
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 4px;
+}
+ul li p:hover{
+    font-size: 26px;
+}
+ul li span {
+    display: inline-block;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-right: 11px;
+    padding-top: 19px;
+    /* vertical-align: super; */
+}
+ul{
+    display: table;
+    margin: 0 auto;
+    /* margin-bottom: 37px; */
+    width: 1166px;
+    font-size: 0;
+    max-height: 600px;
+    /* margin-left: 137px; */
+    box-sizing:border-box;
+    overflow: hidden;
+    
+}
+li{
+    display: inline-block;
+    /* height: 147px; */
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding-top: 26px;
+    padding-bottom: 39px;
+    box-sizing: border-box;
+    background: #ccc;
+    position: relative;
+    font-size: 22px;
+    height: 147px;
+    line-height: 25%;
+    opacity: 0.7;
+}
+li:hover{
+    opacity: 1;
+}
+
+.footer{
+    width: 549px;
+    margin-left:111px ;
+    margin-top: 35px;
+}
+.lisboa,.sanfrancisco{
+    width: 50%;
+}
+.paris,.belgrade,.venice,.telavive,.cair,.newyork,.newdelhi,.tokyo{
+    width: 25%;
+}
+.sydney{
+    width: 100%;
+}
+
+.lisboa{
+    background:rgba(51, 153, 204, 0.7);
+    border: 2px solid #FFFFFF;
+    /* height: 150px; */
+}
+.paris{
+    background-color:rgba(51, 204, 204, 0.5);
+    border: 2px solid #FFFFFF;
+}
+.belgrade{
+    background-color:rgba(153, 102, 153, 0.8);
+    border: 2px solid #FFFFFF;
+}
+.venice{
+    background-color:#C24747 ;
+    border: 2px solid #FFFFFF;
+    /* height: 150px; */
+}
+.telavive{
+    background-color: #E2674A;
+    border: 2px solid #FFFFFF;
+}
+.cair{
+    background: #FFCC66;
+    border: 2px solid #FFFFFF;
+}
+.newdelhi{
+    background: #669999;
+    border: 2px solid #FFFFFF;
+}
+.newyork{
+    background: #99CC99;
+    border: 2px solid #FFFFFF;
+}
+.sanfrancisco{
+    background: #CC6699;
+    border: 2px solid #FFFFFF;
+}
+.tokyo{
+    background: #339966;
+    border: 2px solid #FFFFFF;
+}
+.sydney{
+    background: #666699;
+    border: 2px solid #FFFFFF;
+}
